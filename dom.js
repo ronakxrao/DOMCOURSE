@@ -82,7 +82,18 @@ var itemlist = document.querySelector('#items');
 //console.log(itemlist.parentNode.parentNode);
 
 
-// parentElement
-console.log(itemlist.parentElement);
-itemlist.parentElement.style.background = '#f4f4f4';
-console.log(itemlist.parentElement.parentElement);
+// parentElement //
+//console.log(itemlist.parentElement);
+//itemlist.parentElement.style.background = '#f4f4f4';
+//console.log(itemlist.parentElement.parentElement);
+
+// CHILD NODE //
+console.log(itemlist.childNodes);
+
+
+
+
+
+
+
+
