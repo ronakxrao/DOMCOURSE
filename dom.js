@@ -138,5 +138,8 @@ newDiv.classname = 'hello';
 // ADD ID //
 newDiv.id = 'hello1';
 
+// ADD ATTR //
+newDiv.setAttribute('title', 'hello div');
+
 console.log(newDiv);
 
