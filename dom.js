@@ -147,5 +147,9 @@ var newDiv = document.creatsTextNodez('Hello World');
 // ADDTEXTTODIV //
 newDiv.appendchild(newDivtext);
 
+var container = document.querySelector('header .container');
+var h1 = document.querySelector('header h1');
+
 console.log(newDiv);
 
+container.insertBefore(newDiv, h1);
