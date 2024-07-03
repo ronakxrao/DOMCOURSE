@@ -113,6 +113,9 @@ var itemlist = document.querySelector('#items');
 //itemlist.lastElementChild.textContent = 'Helo 4';
 
 // NEXTSIBLING //
-console.log(itemlist.nextSibling);
+//console.log(itemlist.nextSibling);
+
+// NEXTELEMENTSIBLING //
+console.log(itemlist.nextElementSibling);
 
 
