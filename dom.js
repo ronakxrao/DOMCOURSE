@@ -1,4 +1,4 @@
-//EXAMINE THE DOCUMENT OBJECT
+//EXAMINE THE DOCUMENT OBJECT //
 // console.dir(document);
 //console.log(document.domain);
 //console.log(document.url);
@@ -12,8 +12,8 @@
 //console.log(document.forms);
 //console.log(document.links);
 
-//SELECTORS
-//GET ELEMENT BY ID
+// SELECTORS //
+// GET ELEMENT BY ID //
 //console.log(document.getElementById('header-title'));
 //var headerTitle =document.getElementById('header-title');
 //var header = document.getElementById('main-header');
@@ -23,7 +23,7 @@
 //headerTitle.style.borderBottom = 'solid 3px #000';
 //header.style.borderBottom = 'solid 3px #000';
 
-//GET ELEMENTS BY CLASS NAME
+// GET ELEMENTS BY CLASS NAME //
 
 //var items =document.getElementsByClassName('list-group-item');
 //console.log(items);
@@ -40,15 +40,34 @@
     //items[i].style.backgroundColor = '#f4f4f4';
 //} 
 
-//GET ELEMENTS BY TAG NAME
+// GET ELEMENTS BY TAG NAME //
 
-var items =document.getElementsByTagName('li');
-console.log(li);
-li[1].textContent = 'Hello 2';
-li[1].style.fontWeight = 'bold';
-li[1].style.backgroundcolor = 'yellow';
+//var items =document.getElementsByTagName('li');
+//console.log(li);
+//li[1].textContent = 'Hello 2';
+//li[1].style.fontWeight = 'bold';
+//li[1].style.backgroundcolor = 'yellow';
 
-for(var i =0; i< li.length; i++){
-    li[i].style.backgroundColor = '#f4f4f4';
-} 
+//for(var i =0; i< li.length; i++){
+   // li[i].style.backgroundColor = '#f4f4f4';
+//} 
 
+// QUERYSELECTOR //
+
+var header = document.querySelector('main-header');
+header.style.borderBottom = 'solid 4px #ccc';
+
+var input = document.querySelector('input');
+input.value = 'Hello World'
+
+var sumbit = document.querySelector('input[type="sumbit"]');
+sumbit.value = "SEND";
+
+var item = document.querySelector('.list-group-item');
+item.style.colotr = 'red';
+
+var lastItem = document.querySelector('.list-group-item:last-child');
+item.style.colotr = 'red';
+
+var secondItem = document.querySelector('.list-group-item:nthchild(2)');
+secondItem.style.colotr = 'red';
