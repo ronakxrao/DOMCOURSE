@@ -135,5 +135,8 @@ varnewDiv = document.createElement('div');
 
 newDiv.classname = 'hello';
 
+// ADD ID //
+newDiv.id = 'hello1';
+
 console.log(newDiv);
 
