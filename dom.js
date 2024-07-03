@@ -11,3 +11,10 @@ console.log(document.all);
 console.log(document.all[10]);
 console.log(document.forms);
 console.log(document.links);
+
+//selectors
+// get element by id
+//console.log(document.getElementById('header-title'));
+var headerTitle =document.getElementById('header-title');
+console.log(headerTitle);
+headerTitle.textContent = 'Hello';
