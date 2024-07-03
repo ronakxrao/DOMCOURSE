@@ -119,5 +119,8 @@ var itemlist = document.querySelector('#items');
 //console.log(itemlist.nextElementSibling);
 
 // PreviousSibling //
-console.log(itemlist.previousSibling);
+//console.log(itemlist.previousSibling);
 
+// PreviousElementSibling //
+console.log(itemlist.previousElementSibling);
+itemlist.previousElementSibling.style.color = 'green';
