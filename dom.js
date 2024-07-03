@@ -105,9 +105,12 @@ var itemlist = document.querySelector('#items');
 //itemlist.firstElementChild.textContent = 'Helo 1';
 
 // lastChild // 
-console.log(itemlist.lastchild);
+//console.log(itemlist.lastchild);
 
+// lastElementChild //
 
+console.log(itemlist.lastElementChild);
+itemlist.lastElementChild.textContent = 'Helo 4';
 
 
 
