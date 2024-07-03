@@ -50,5 +50,5 @@ li[1].style.backgroundcolor = 'yellow';
 
 for(var i =0; i< li.length; i++){
     li[i].style.backgroundColor = '#f4f4f4';
-}
+} 
 
