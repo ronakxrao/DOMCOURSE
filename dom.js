@@ -131,6 +131,9 @@ var itemlist = document.querySelector('#items');
 
 varnewDiv = document.createElement('div');
 
+// ADD CLASS //
+
+newDiv.classname = 'hello';
 
 console.log(newDiv);
 
