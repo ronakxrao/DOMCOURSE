@@ -77,6 +77,12 @@
 var itemlist = document.querySelector('#items');
 
 // parent node
-console.log(itemlist.parentNode);
-itemlist.parentNode.style.background = '#f4f4f4';
-console.log(itemlist.parentNode.parentNode);
+//console.log(itemlist.parentNode);
+//itemlist.parentNode.style.background = '#f4f4f4';
+//console.log(itemlist.parentNode.parentNode);
+
+
+// parentElement
+console.log(itemlist.parentElement);
+itemlist.parentElement.style.background = '#f4f4f4';
+console.log(itemlist.parentElement.parentElement);
