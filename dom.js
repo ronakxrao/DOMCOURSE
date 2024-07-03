@@ -142,7 +142,10 @@ newDiv.id = 'hello1';
 newDiv.setAttribute('title', 'hello div');
 
 // CREATE TEXT NODE
-var newDiv = document.creatsTextNodez('Hello World')
+var newDiv = document.creatsTextNodez('Hello World');
+
+// ADDTEXTTODIV //
+newDiv.appendchild(newDivtext);
 
 console.log(newDiv);
 
