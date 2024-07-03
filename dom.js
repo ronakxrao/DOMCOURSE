@@ -54,20 +54,24 @@
 
 // QUERYSELECTOR //
 
-var header = document.querySelector('main-header');
-header.style.borderBottom = 'solid 4px #ccc';
+//var header = document.querySelector('main-header');
+//header.style.borderBottom = 'solid 4px #ccc';
 
-var input = document.querySelector('input');
-input.value = 'Hello World'
+//var input = document.querySelector('input');
+//input.value = 'Hello World'
 
-var sumbit = document.querySelector('input[type="sumbit"]');
-sumbit.value = "SEND";
+//var sumbit = document.querySelector('input[type="sumbit"]');
+//sumbit.value = "SEND";
 
-var item = document.querySelector('.list-group-item');
-item.style.colotr = 'red';
+//var item = document.querySelector('.list-group-item');
+//item.style.colotr = 'red';
 
-var lastItem = document.querySelector('.list-group-item:last-child');
-item.style.colotr = 'red';
+//var lastItem = document.querySelector('.list-group-item:last-child');
+//item.style.colotr = 'red';
 
-var secondItem = document.querySelector('.list-group-item:nthchild(2)');
-secondItem.style.colotr = 'red';
+//var secondItem = document.querySelector('.list-group-item:nthchild(2)');
+//secondItem.style.colotr = 'red';
+
+// TRAVERSING THE DOM //
+
+var itemlist = document.querySelector('#items');
