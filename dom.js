@@ -116,6 +116,8 @@ var itemlist = document.querySelector('#items');
 //console.log(itemlist.nextSibling);
 
 // NEXTELEMENTSIBLING //
-console.log(itemlist.nextElementSibling);
+//console.log(itemlist.nextElementSibling);
 
+// PreviousSibling //
+console.log(itemlist.previousSibling);
 
