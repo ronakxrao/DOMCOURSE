@@ -122,5 +122,15 @@ var itemlist = document.querySelector('#items');
 //console.log(itemlist.previousSibling);
 
 // PreviousElementSibling //
-console.log(itemlist.previousElementSibling);
-itemlist.previousElementSibling.style.color = 'green';
+//console.log(itemlist.previousElementSibling);
+//itemlist.previousElementSibling.style.color = 'green';
+
+// CreateElement //
+
+// Create a DIV
+
+varnewDiv = document.createElement('div');
+
+
+console.log(newDiv);
+
