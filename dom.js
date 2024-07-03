@@ -12,8 +12,8 @@
 //console.log(document.forms);
 //console.log(document.links);
 
-//selectors
-// get element by id
+//SELECTORS
+//GET ELEMENT BY ID
 //console.log(document.getElementById('header-title'));
 //var headerTitle =document.getElementById('header-title');
 //var header = document.getElementById('main-header');
@@ -22,3 +22,8 @@
 //headerTitle.innerHTML = '<h3>Hello</h3>';
 //headerTitle.style.borderBottom = 'solid 3px #000';
 //header.style.borderBottom = 'solid 3px #000';
+
+//GET ELEMENTS BY CLASS NAME
+
+var items =document.getElementsByClassName('list-group-item');
+console.log(items);
