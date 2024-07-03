@@ -96,13 +96,17 @@ var itemlist = document.querySelector('#items');
 //console.log(item.list.children[1]);
 //itemlist.children[1].style.backgroundColor = 'yellow';
 
-// FirstChild
+// FirstChild //
 //console.log(itemlist.firstchild);
 
 // FirstElementChild //
 
-console.log(itemlist.firstElementChild);
-itemlist.firstElementChild.textContent = 'Helo 1';
+//console.log(itemlist.firstElementChild);
+//itemlist.firstElementChild.textContent = 'Helo 1';
+
+// lastChild // 
+console.log(itemlist.lastchild);
+
 
 
 
