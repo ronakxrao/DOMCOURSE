@@ -152,4 +152,6 @@ var h1 = document.querySelector('header h1');
 
 console.log(newDiv);
 
+newDiv.style.fontsize = '30px';
+
 container.insertBefore(newDiv, h1);
