@@ -96,7 +96,8 @@ console.log(item.list.children);
 console.log(item.list.children[1]);
 itemlist.children[1].style.backgroundColor = 'yellow';
 
-
+// FirstChild
+console.log(itemlist.firstchild);
 
 
 
