@@ -75,3 +75,8 @@
 // TRAVERSING THE DOM //
 
 var itemlist = document.querySelector('#items');
+
+// parent node
+console.log(itemlist.parentNode);
+itemlist.parentNode.style.background = '#f4f4f4';
+console.log(itemlist.parentNode.parentNode);
