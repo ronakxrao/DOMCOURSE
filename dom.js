@@ -129,29 +129,31 @@ var itemlist = document.querySelector('#items');
 
 // Create a DIV
 
-varnewDiv = document.createElement('div');
+//varnewDiv = document.createElement('div');
 
 // ADD CLASS //
 
-newDiv.classname = 'hello';
+//newDiv.classname = 'hello';
 
 // ADD ID //
-newDiv.id = 'hello1';
+//newDiv.id = 'hello1';
 
 // ADD ATTR //
-newDiv.setAttribute('title', 'hello div');
+//newDiv.setAttribute('title', 'hello div');
 
 // CREATE TEXT NODE
-var newDiv = document.creatsTextNodez('Hello World');
+//var newDiv = document.creatsTextNodez('Hello World');
 
 // ADDTEXTTODIV //
-newDiv.appendchild(newDivtext);
+//newDiv.appendchild(newDivtext);
 
-var container = document.querySelector('header .container');
-var h1 = document.querySelector('header h1');
+//var container = document.querySelector('header .container');
+//var h1 = document.querySelector('header h1');
 
-console.log(newDiv);
+//console.log(newDiv);
 
-newDiv.style.fontsize = '30px';
+//newDiv.style.fontsize = '30px';
 
-container.insertBefore(newDiv, h1);
+//container.insertBefore(newDiv, h1);
+
+
