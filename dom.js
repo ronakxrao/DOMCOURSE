@@ -183,7 +183,10 @@ var itemlist = document.querySelector('#items');
    //console.log(e.shiftkey);
 //}
 
-var button =document.getElementById('button').addEventListener('click', runEvent);
+var button =document.getElementById('button');
+
+//button.addEventListener('click', runEvent);
+button.addEventListener('dblclick', runEvent);
 function runEvent(e){
     console.log('EVENT TYPE: '+e.type);
 }
