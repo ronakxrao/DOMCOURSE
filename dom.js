@@ -186,7 +186,8 @@ var itemlist = document.querySelector('#items');
 var button =document.getElementById('button');
 
 //button.addEventListener('click', runEvent);
-button.addEventListener('dblclick', runEvent);
+//button.addEventListener('dblclick', runEvent);
+button.addEventListener('mousedown', runEvent);
 function runEvent(e){
     console.log('EVENT TYPE: '+e.type);
 }
