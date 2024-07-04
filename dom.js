@@ -161,9 +161,24 @@ var itemlist = document.querySelector('#items');
 
 var button =document.getElementById('button').addEventListener('click', buttonClick);
 
-function buttonClick(){
+function buttonClick(e){
     //console.log('button clicked');
-    document.getElementById('header-title').textContent = 'Changed';
-    document.querySelector('#main').computedStyleMap.backgroundColor ='#f4f4f4';
-     
+   // document.getElementById('header-title').textContent = 'Changed';
+    //document.querySelector('#main').computedStyleMap.backgroundColor ='#f4f4f4';
+   //console.log(e);  
+
+   //console.log(e.target);
+   //console.log(e.target.id);
+   //console.log(e.target.className);
+   //console.log(e.target.classlist);
+   //console.log(e.type);
+   //console.log(e.clientx);
+   //console.log(e.clientY);
+
+   //console.log(e.offsetx);
+   //console.log(e.offsetY);
+
+   console.log(e.altkey);
+   console.log(e.ctrlkey);
+   console.log(e.shiftkey);
 }
