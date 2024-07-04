@@ -159,9 +159,9 @@ var itemlist = document.querySelector('#items');
 
 // EVENTLISTENER//
 
-var button =document.getElementById('button').addEventListener('click', buttonClick);
+//var button =document.getElementById('button').addEventListener('click', buttonClick);
 
-function buttonClick(e){
+//function buttonClick(e){
     //console.log('button clicked');
    // document.getElementById('header-title').textContent = 'Changed';
     //document.querySelector('#main').computedStyleMap.backgroundColor ='#f4f4f4';
@@ -178,7 +178,12 @@ function buttonClick(e){
    //console.log(e.offsetx);
    //console.log(e.offsetY);
 
-   console.log(e.altkey);
-   console.log(e.ctrlkey);
-   console.log(e.shiftkey);
+   //console.log(e.altkey);
+   //console.log(e.ctrlkey);
+   //console.log(e.shiftkey);
+//}
+
+var button =document.getElementById('button').addEventListener('click', runEvent);
+function runEvent(e){
+    console.log('EVENT TYPE: '+e.type);
 }
