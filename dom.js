@@ -157,3 +157,13 @@ var itemlist = document.querySelector('#items');
 //container.insertBefore(newDiv, h1);
 
 
+// EVENTLISTENER//
+
+var button =document.getElementById('button').addEventListener('click', buttonClick);
+
+function buttonClick(){
+    //console.log('button clicked');
+    document.getElementById('header-title').textContent = 'Changed';
+    document.querySelector('#main').computedStyleMap.backgroundColor ='#f4f4f4';
+     
+}
